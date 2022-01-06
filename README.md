@@ -16,7 +16,7 @@ I will not be providing support for this as I am only just entering the world of
 
 a class="active" href="YOUR_NEW_FILE_PATH">Home</a
 
--- Don't forget to include < and > at each end of this line above otherwise it won't work.
+-- Don't forget to include '<' and '>' at each end of this line above otherwise it won't work.
 
 
 
