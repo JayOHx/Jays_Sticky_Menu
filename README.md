@@ -1,6 +1,6 @@
 # Information
 
-This is a simple HTML based sticky menu for website use. Currently it hosts the beggings of a CSGO gambling site but can be easily changed to fit any purpose
+This is a simple HTML based sticky menu for website use. Currently it hosts the beggings of a CSGO gambling site but can be easily changed to fit any purpose. It uncludes a small amount of CSS than could be added to the HTML file if you wish but I just like to keep things tidy, also a very small amount of JS to control what the menu does and when.
 
 # Support
 
