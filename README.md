@@ -29,8 +29,58 @@ a class="active" href="YOUR_NEW_FILE_PATH">Home</a
   <body>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-
+<style>
+  body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    }
+    
+    #navbar {
+    overflow: hidden;
+    background-color: rgb(31, 31, 31);
+    }
+    
+    #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 14px;
+    }
+    
+    #navbar a:hover {
+    background-color: #f8d58a;
+    color: black;
+    }
+    
+    #navbar a.active {
+    background-color: #fac110;
+    color: white;
+    }
+    
+    .content {
+    padding: 16px;
+    }
+    
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    
+    .sticky + .content {
+    padding-top: 60px;
+    }
+</style>
   <div id="navbar">
     <a class="active" href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/homepage.html">Home</a>
     <a href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/crash.html">Crash</a>
@@ -56,6 +106,12 @@ a class="active" href="YOUR_NEW_FILE_PATH">Home</a
 
 </body>
 </html>
+
+
+
+
+
+
 
 
 
