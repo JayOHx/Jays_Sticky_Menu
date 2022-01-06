@@ -1,0 +1,41 @@
+<!doctype html>
+
+<title>CSGOPhoenix.com - Home</title>
+<link rel="shortcut icon" href="/favicon.ico"/>
+
+<html>
+  <body>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <div id="navbar">
+    <a class="active" href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/homepage.html">Home</a>
+    <a href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/crash.html">Crash</a>
+    <a href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/roulette.html">Roulette</a>
+    <a href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/dice.html">Dice</a>
+    <a href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/plinko.html">Plinko</a>
+  </div>
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+</body>
+</html>
+
+
+
+
+
