@@ -8,4 +8,4 @@ I will not be providing support for this as I am only just entering the world of
 
 # How to use:
 
-<a class="active" href="YOUR_NEW_FILE_PATH">Home</a>
+a class="active" href="YOUR_NEW_FILE_PATH">Home</a
