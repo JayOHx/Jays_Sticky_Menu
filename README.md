@@ -8,4 +8,4 @@ I will not be providing support for this as I am only just entering the world of
 
 # How to use:
 
-This will not work out of the box, you must update the locations that each button takes you too. For example, in 'homepage.html' you will see that <a class="active" href="file:///C:/Users/Jay%20O'Halloran/Desktop/html/homepage.html">Home</a> will take you to a file on my PC, you need to copy the file path of 'hompage.html' and replace it in all files then do the same for the other pages in the file. Without doing this nothing will work.
+<a class="active" href="YOUR_NEW_FILE_PATH">Home</a>
